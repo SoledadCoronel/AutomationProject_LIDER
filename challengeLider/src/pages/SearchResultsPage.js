@@ -4,7 +4,6 @@ class SearchResultsPage {
    */
   constructor(page) {
     this.page = page;
-    // Ajusta con Codegen: apunta al contenedor/tarjeta de producto
     this.productTiles = page.locator('a:has(img), article a, li a');
   }
 
